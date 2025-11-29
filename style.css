@@ -1,0 +1,49 @@
+/* general */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+nav {
+    background: #009879;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* home page background */
+.home-banner {
+    background: url('homebg.jpg') center/cover no-repeat;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+}
+
+.content {
+    padding: 40px;
+}
+
+.spot {
+    background: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.spot img {
+    width: 100%;
+    border-radius: 10px;
+}
